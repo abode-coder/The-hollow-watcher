@@ -1,0 +1,13 @@
+{
+  "version": 5,
+  "major_version": 1,
+  "minor_version": 0,
+  "revision": 0,
+  "minecraft": "1.19.2",
+  "name": "The Hollow Watcher",
+  "description": "A psychological horror mod featuring a stalking creature that hunts players across dimensions.",
+  "author": "abode-coder",
+  "license": "MIT",
+  "url": "https://github.com/abode-coder/the-hollow-watcher",
+  "namespace": "com.abodecoder.hollowwatcher"
+}
