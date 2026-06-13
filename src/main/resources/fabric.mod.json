@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "hollow-watcher",
+  "version": "${version}",
+  "name": "The Hollow Watcher",
+  "description": "A psychological horror mod featuring a stalking creature that hunts players across dimensions.",
+  "authors": ["abode-coder"],
+  "contact": {
+    "homepage": "https://github.com/abode-coder/the-hollow-watcher"
+  },
+  "license": "MIT",
+  "icon": "assets/hollow-watcher/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.abodecoder.hollowwatcher.HollowWatcherMod"],
+    "client": ["com.abodecoder.hollowwatcher.HollowWatcherClient"]
+  },
+  "mixins": [
+    "hollow-watcher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
