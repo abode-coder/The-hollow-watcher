@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft
+*.jar
+*.class
+*.log
+
+# Environment
+.env
+.env.local
